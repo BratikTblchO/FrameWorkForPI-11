@@ -1,0 +1,219 @@
+body { 
+    background: url(img/blood.jpg);
+    background-attachment: fixed; 
+        background-repeat: no-repeat; 
+        background-position: top;
+        background-size: cover;
+   /*margin: 0;
+    background: linear-gradient(45deg, rgb(51, 161, 204), rgb(19, 167, 85), rgb(114, 13, 92));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    /*background-color: antiquewhite;*/
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+a {
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background: #137592;
+    color: rgb(0, 0, 0);
+    font-size: 16pt;
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(117, 0, 0);
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#shadow {
+    background: #137592;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: none;
+    font-size: 14pt;
+}
+
+#window {
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    margin: auto;
+    background: rgba(115, 159, 196, 0.562);
+    z-index: 2;
+}
+
+#shadow:target {
+    display: block;
+}
+
+.block_1 {
+    position: fixed;
+    z-index: 1;
+    top: 325px;
+    left: 1120px;
+    width: 60px;
+    height: 70px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.block_2 {
+    position: fixed;
+    visibility: hidden;
+    top: 250px;
+    left: 1080px;
+}
+
+.block_2 p {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.hide {
+    display: none;
+}
+
+.close {
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #408d80;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.img {
+    left: 800px;
+    top: 385px;
+    height: 900px;
+    position: fixed;
+}
+
+.numbers {
+    width: 240px;
+    height: 40px;
+    background-color: #77efff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.25rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: 0;
+}
+
+.close:hover {
+    background: #63d3ff;
+}
+
+button:hover {
+    background: #1dc04e;
+}
+
+.numbers:hover {
+    background: #4bd852;
+}
+
+.block_1:hover .block_2 {
+    visibility: visible;
+}
+
+.block_1:hover {
+    background: url(../img/лол2.png);
+    background-size: cover;
+}
+
+input[type=checkbox] {
+    display:flex;
+}
+
+.operation {
+    width: 160px;
+}
+#menuFigure{
+    background: #b023db;
+    width: 100px;
+    height: 25px;
+    border: 3px solid #000000;
+    text-size-adjust: 50px;
+}
+#checkFigure{
+    width: 350px;
+    height: 375x;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    margin: auto;
+    z-index: 2;
+    background: #b023db;
+    margin-left: 115px;
+    margin-top: 350px;
+}
+.showColor {
+    width: 350px;
+    height: 100px;
+    border: 1px solid rgb(146, 248, 86);
+    position: relative;
+}
+
+.showColor div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.highload4 {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 15px;
+    background-color: red;
+    border-radius:10%;
+}
+.highload4:checked {
+    background-color: green;
+}
+.highload4:checked:before {
+    content:"on";
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+}
+#canvas3D{
+    border: 2px solid rgb(255, 255, 255);
+}
+
